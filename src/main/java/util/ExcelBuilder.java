@@ -16,7 +16,7 @@ public class ExcelBuilder {
     XSSFWorkbook workbook = new XSSFWorkbook();
     XSSFSheet workbookSheet = workbook.createSheet("Load");
 
-    public void fillShettLoad(int n){
+    public void fillSheetLoad(int n){
 
         XSSFRow row = workbookSheet.createRow(n);
 

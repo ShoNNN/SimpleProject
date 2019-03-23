@@ -11,7 +11,7 @@ public class Main {
             parser.parseCSV(args[n]);
             parser.fillListOfTestInfo(FileParser.getServerNameArray());
 
-            builder.fillShettLoad(n);
+            builder.fillSheetLoad(n);
             FileParser.clearListCsvInfo();
             FileParser.clearListOftestInfo();
             System.out.println(args[n] + " ok!");
